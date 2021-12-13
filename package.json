@@ -1,0 +1,32 @@
+{
+  "name": "robinia-delegate-farms",
+  "version": "1.0.0",
+  "description": "Delegate farm contracts for robiniaswap  \r   https://github.com/diginedev/robinia-delegate-farms.git",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "migrate": "truffle migrate --network bscTestnet --reset",
+    "compile": "truffle compile --network bscTestnet",
+    "migrate:testnet": "truffle migrate --network testnet --reset",
+    "migrate:bsc": "truffle migrate --network bsc --reset",
+    "test": "npx builder test",
+    "coverage": "npx builder coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diginedev/robinia-delegate-farms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diginedev/robinia-delegate-farms/issues"
+  },
+  "homepage": "https://github.com/diginedev/robinia-delegate-farms#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.3.3",
+    "@truffle/hdwallet-provider": "^1.6.0",
+    "dotenv": "^10.0.0"
+  }
+}
